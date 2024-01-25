@@ -43,6 +43,8 @@ end_station_name, start_station_id, start_station_name, ended_at, started_at, ri
 
 ## PHASE 3: PROCESS
 
-I will be using BigQuery to combine all files into dataset and clean data. BigQuery is a serverless data warehouse that can automatically scale to handle petabytes of data, which is much larger than the amount of data that Excel can handle. 
-This means that I can store and analyze large datasets without having to worry about managing my own infrastructure. BigQuery is a very fast data warehouse that can query large datasets in seconds. 
-This means that I can quickly analyze data and get insights that I can use to make better decisions.
+I will be using PostgreSQL to combine all files into dataset and clean data. PostgreSQL is a powerful and versatile database system that is well-suited for analyzing data for a cyclistic company. It is scalable, performant, flexible, secure, and has a large and active community. In addition, PostgreSQL has several features that make it specifically well-suited for analyzing geospatial and time series data, which are both important types of data for a company.
+
+
+
+
