@@ -43,7 +43,40 @@ end_station_name, start_station_id, start_station_name, ended_at, started_at, ri
 
 ## PHASE 3: PROCESS
 
-I will be using PostgreSQL to combine all files into dataset and clean data. PostgreSQL is a powerful and versatile database system that is well-suited for analyzing data for a cyclistic company. It is scalable, performant, flexible, secure, and has a large and active community. In addition, PostgreSQL has several features that make it specifically well-suited for analyzing geospatial and time series data, which are both important types of data for a company.
+I will be utilizing PostgreSQL to merge all files into a dataset and perform data cleaning. PostgreSQL stands out as a robust and versatile database system, perfectly tailored for data analysis at Cyclistic. Its scalability, performance, flexibility, security features, and the support of community make it an ideal choice.
+
+In pgAdmin4, I've established 12 tables and imported CSV files sourced from our primary data. These tables have been combined into a singular table named 'cyclistic2023,' comprising a total of 21,242,447 rows. Below is the SQL query employed for the consolidation of all tables: [Data Union]
+
+### Data Cleaning
+
+1. Verifying the presence of null values within our dataset.
+
+   ![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/11a80cb1-302b-4c81-813f-6ad976019c7f)
+
+2. Creating a new table without null values and verifying its integrity. The new table comprises 16,058,464 rows.
+
+   ![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/1b393dc5-17db-43b2-b84a-7d24d25f0e87)
+
+3. Enhancing the table by adding two additional columns: "ride length" and "day of the week." The "ride length" column calculates the duration of the bike ride (end time minus start time), while the "day of the week" column indicates the day when the ride commenced.
+
+   ![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/5a3739aa-2a83-4200-9033-bc6c388dfc11)
+
+Now that we have successfully cleaned and prepared the data for analysis, the SQL query responsible for the data cleaning process can be found here: [Link to SQL Query for Data Cleaning].
+
+## PHASE 4 AND 5: ANALYZE AND SHARE
+
+For the subsequent phases of analysis, I have opted to utilize Tableau. Tableau's robust visualization capabilities and interactive features will enable me to present insights more effectively, fostering a deeper understanding of the data. This shift allows for a seamless transition from data cleaning and preparation in SQL to dynamic and visually engaging analyses in Tableau.
+
+
+
+
+
+
+
+   
+
+
+
 
 
 
