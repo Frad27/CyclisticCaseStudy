@@ -57,15 +57,63 @@ In pgAdmin4, I've established 12 tables and imported CSV files sourced from our 
 
    ![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/1b393dc5-17db-43b2-b84a-7d24d25f0e87)
 
-3. Enhancing the table by adding two additional columns: "ride length" and "day of the week." The "ride length" column calculates the duration of the bike ride (end time minus start time), while the "day of the week" column indicates the day when the ride commenced.
+3. Verifying the count of rides with a ride length of less than 1 minute and more than 24 hours and removing them from table. Identifying and categorizing these rides as anomalies, as their extreme durations may potentially distort the accuracy of insights derived from the data. We are left with 15,741,907 rows.
+
+   ![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/6dd8df53-8685-43da-9d38-31f2d62052f4) 
+
+4. Enhancing the table by adding two additional columns: "ride length" and "day of the week." The "ride length" column calculates the duration of the bike ride (end time minus start time), while the "day of the week" column indicates the day when the ride commenced.
 
    ![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/5a3739aa-2a83-4200-9033-bc6c388dfc11)
 
 Now that we have successfully cleaned and prepared the data for analysis, the SQL query responsible for the data cleaning process can be found here: [Link to SQL Query for Data Cleaning].
 
-## PHASE 4 AND 5: ANALYZE AND SHARE
+## PHASE 4: ANALYZE
 
-For the subsequent phases of analysis, I have opted to utilize Tableau. Tableau's robust visualization capabilities and interactive features will enable me to present insights more effectively, fostering a deeper understanding of the data. This shift allows for a seamless transition from data cleaning and preparation in SQL to dynamic and visually engaging analyses in Tableau.
+Initially making statistical analysis on the dataset to gain deeper insights. This involves calculating the average, minimum, and maximum ride lengths, as well as determining the mode of the day of the week. This  approach aims to unveil patterns, providing valuable information such as the typical ride duration and the most frequent day for bike rides.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/8e5b273f-6cb6-44b1-aa59-cd82be409b9a)
+
+Calculating the average ride length categorized by the type of member and day of the week. Additionally, determining the number of rides for each day of the week categorized by the type of member.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/574d548b-cf55-40e4-a853-958274ae917a)
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/48510062-a1d9-4c16-81be-f1ce113017b2)
+
+Determine the number of rides per hour of the day and per month. This exploration aims to unveil hourly trends in ride frequency and identify the season of the year with the highest ride activity.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/6a3b3921-3dfe-4dc8-8d74-87b6c45c8d0f)
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/8a0ebc62-88af-42fe-8570-6c396f078774)
+
+The count of rides based on both starting and ending stations to identify the most frequented locations where each type of member initiates their journey. This analysis aims to reveal patterns in the preferred starting and ending points for different member types, providing valuable insights into user behavior and usage patterns.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/1dd46bd8-1319-4d19-94eb-c84928b4deca)
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/a30c63fa-2fc0-403e-ba9c-57c114d15e40)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
