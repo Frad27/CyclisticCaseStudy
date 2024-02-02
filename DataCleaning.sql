@@ -37,6 +37,12 @@ WHERE start_station_name IS NULL
    OR end_lat IS NULL
    OR end_lng IS NULL;
    
+-- Removing bike rides shorter than 1 minute and longer than 24 hours from table
+
+DELETE FROM cyclistic2023clean
+WHERE EXTRACT(EPOCH FROM ride_length) < 60 -- Rides less than 1 minute
+   OR EXTRACT(EPOCH FROM ride_length) > 24 * 3600; -- Rides more than 24 hours
+   
 -- Creating new columns for ride length and day of week
 
 -- Step 1: Add the ride_length and day_of_week columns
@@ -51,6 +57,3 @@ SET ride_length = ended_at - started_at;
 -- Step 3: Update the day_of_week column
 UPDATE cyclistic2023clean
 SET day_of_week = EXTRACT(DOW FROM started_at);
-
-
-
