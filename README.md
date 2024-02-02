@@ -99,6 +99,101 @@ The analyzed data from PostgreSQL has been  saved as CSV files and subsequently 
 
 ## PHASE 5: SHARE
 
+Starting this phase by initially evaluating the ride distribution among different member types. The graph shows the number of rides for each type of member and subsequently calculate the percentage contribution of each member type to the total number of rides in the year 2023.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/682d8b91-bd34-4594-97e6-7062717c9b68)
+
+Member riders have a total of 10,026,323 rides, making 63.69% of the overall rides in 2023. Casual riders accounted for 5,715,583 rides, representing 36.31% of the total rides. This breakdown provides a clear understanding of the distribution and contribution of each member type to the overall ride statistics for the specified period.
+
+Moving on, let's check out which types of bikes each group likes more. We're digging into the bike choices of both members and casual riders to see what type they prefer. This part of the analysis will give us the lowdown on the most popular bike types for each crew.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/e3137238-9ef4-49c7-8d94-e3c9683410ca)
+
+Observing the data, it's clear that both member and casual riders lean towards classic bikes rather than electric ones. Notably, only casual riders opt for docked bikes.
+
+Next up, let's dive into the data to analyze how each group's ride count varies hourly, weekly, and monthly. This exploration aims to uncover distinct patterns in the riding behavior of both member and casual riders, providing insights into their preferences and usage tendencies across different timeframes.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/80ad73ef-b5c3-4571-8426-d21a616597ef)
+
+Examining the ride distribution per hour of the day reveals interesting patterns. Member riders show peak usage around 8 am and 5 pm, suggesting a predominant utilization for commuting during standard working hours. On the other hand, casual riders exhibit peak usage around 5 pm, gradually tapering off afterward. This trend may indicate that casual riders predominantly use bikes post-work hours, possibly for leisure or recreational purposes.
+
+Shifting our focus, let's take a look at the distribution of rides throughout the week. This analysis aims to identify the specific days when the highest ride activity occurs for both member and casual riders.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/be0ba3d3-4c2d-43e8-89d4-bc3805fc63e5)
+
+The analysis of ride distribution throughout the week unveils distinct patterns. Member riders exhibit the highest ride activity during midweek days, reinforcing the notion that bikes are predominantly used for commuting to and from work. In contrast, casual riders show peak ride activity during the weekends, aligning with our earlier observation that they prefer bikes for leisure and recreational purposes during their free time.
+
+Now, let's turn our attention to the monthly distribution of rides for both member and casual riders. We are looking to identify the season of the year when the highest ride activity occurs within each user group. Understanding the seasonal patterns will provide valuable insights into the riding preferences during different times of the year.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/5ff85fa5-164c-4b9f-bc75-0cec2e37d492)
+
+Observing the monthly ride distribution for both member and casual riders, a consistent pattern emerges. The peak ride activity for both groups is observed during the summer months, gradually declining as winter approaches. This trend may be attributed to reduced bike usage during lower temperatures, particularly in Chicago's cold autumn and winter months, where weather conditions might not be suitable for biking.
+
+Now, let's take a look at the most frequent starting and ending points for both member and casual riders. This analysis aims to identify the stations that are most commonly used by each user group, shedding light on preferred locations and patterns in the starting and ending points of their rides.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/6a58e6f0-5b30-4c82-952d-ce7f9f970042)
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/de29de83-7fb6-4e3e-829b-a4cbc368dcbe)
+
+Analyzing both maps, a clear distinction emerges. Casual riders predominantly start and end their rides along the waterfront and near tourist attractions. On the contrary, members tend to initiate or conclude their rides in the downtown and residential area of Chicago. This further validates our earlier observation that casual riders opt for bikes more for leisure and recreational purposes, while members primarily use bikes for commuting to work and university.
+
+---
+
+In summary, our analysis has unveiled distinct patterns in the biking behavior of members and casual riders. Member riders showcase a consistent trend of using bikes primarily for commuting, with peak hours aligning with standard working hours and a concentration of rides in the downtown area. Casual riders, on the other hand, exhibit a preference for leisurely rides, with peak usage during evenings and weekends, often near waterfronts and tourist attractions.
+
+Examining bike preferences, both groups lean towards classic bikes, but casual riders are the sole users of docked bikes. Furthermore, the monthly analysis revealed a common pattern for both groups, with peak ride activity during summer months, suggesting a decrease in bike usage during colder seasons.
+
+Lastly, the examination of starting and ending points highlighted that casual riders favor locations near tourist attractions and waterfronts, while members predominantly start or end their rides in the downtown area—underscoring the distinction in purpose between leisure and commuting.
+
+These findings collectively contribute valuable insights into user behavior, aiding in the formulation of targeted strategies and service improvements for both member and casual riders.
+
+All visualizations are available and accessible on Tableau through the following link: [insert the link here].
+
+## PHASE 6: ACT
+
+After thoroughly examining the differences between two types of riders, we now arrive at the final phase, known as "act." In light of this analysis, I would like to present the following recommendations to the marketing team:
+
+### 1. Riding hours
+Throughout the day, the majority of rides for both groups take place around 5 pm, indicating a common trend. Notably, for members, peak ride hours are also observed in the morning around 8 am. There's significant potential here to implement peak-hour promotions specifically targeted at annual members. Offering discounts during the identified peak hours, especially around 5 pm, could entice casual riders by making rides more affordable during their usual peak times. Additionally, such promotions might encourage casual riders to consider using bikes for their morning commute if early morning hours come with discounted rates. This strategy aims to leverage identified peak hours for both user groups, enhancing user engagement and promoting diverse usage patterns.
+
+### 2. Day of the week
+Tailoring incentives to cater to the distinct preferences of both casual and annual members is a strategic approach. For casual riders, offering exclusive perks such as discounts for tourist attractions or additional ride credits could serve as an attractive proposition. This not only provides incentives for casual riders to consider annual memberships, gaining discounts for leisure rides during the weekends but also encourages them to utilize bikes during weekdays.
+Simultaneously, for annual members, introducing perks and discounts that align with weekend activities can stimulate increased bike usage during weekends. This comprehensive strategy aims to strike a balance, appealing to the recreational preferences of casual riders and encouraging diversified bike usage patterns among annual members.
+
+### 3. Season
+Recognizing that the peak riding seasons for both groups align with spring and summer, leveraging this insight for strategic campaigns can be impactful. To encourage the shift of casual riders towards annual memberships, I propose launching targeted campaigns featuring discounts before the spring, highlighting the seasonal benefits of an annual membership. Additionally, providing casual members with an annual membership trial, complete with all its associated benefits, could make the transition more enticing, potentially prompting them to opt for an annual membership. This approach aims to capitalize on seasonal trends and offer compelling incentives for casual riders to make the switch.
+
+### 4. Location
+Given the observation that casual riders frequently start and end their rides around waterfronts and tourist attractions, while members prefer downtown and residential areas, strategic marketing efforts can be tailored accordingly. I recommend directing marketing promotions for annual memberships specifically to downtown and residential zones. Emphasizing the convenience of commuting, these promotions could include incentives such as discounted rates, exclusive routes, or perks designed to cater to commuter needs.
+Additionally, exploring options like commuter-focused memberships, with benefits tailored for daily work or university travel, can be effective in enticing casual riders to consider bikes as a practical mode of commute. This approach aims to align marketing strategies with user behavior and needs, creating a more appealing proposition for both casual and annual members.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
