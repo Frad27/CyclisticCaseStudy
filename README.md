@@ -91,6 +91,16 @@ The count of rides based on both starting and ending stations to identify the mo
 
 ![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/a30c63fa-2fc0-403e-ba9c-57c114d15e40)
 
+Calculating the number of bike rides categorized by bike types for different user groups. The goal is to see the predominant bike preferences within each user segment.
+
+![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/488c491b-263f-4cff-9701-171bd4129b5f)
+
+The analyzed data from PostgreSQL has been  saved as CSV files and subsequently uploaded to Tableau Public, marking the initiation of the fifth phase: sharing insights. This approach ensures accessibility and allows for dynamic visualization and exploration of the findings through Tableau's public platform.
+
+## PHASE 5: SHARE
+
+
+
 
 
 
