@@ -45,7 +45,7 @@ end_station_name, start_station_id, start_station_name, ended_at, started_at, ri
 
 I will be utilizing PostgreSQL to merge all files into a dataset and perform data cleaning. PostgreSQL stands out as a robust and versatile database system, perfectly tailored for data analysis at Cyclistic. Its scalability, performance, flexibility, security features, and the support of community make it an ideal choice.
 
-In pgAdmin4, I've established 12 tables and imported CSV files sourced from our primary data. These tables have been combined into a singular table named 'cyclistic2023,' comprising a total of 21,242,447 rows. Below is the SQL query employed for the consolidation of all tables: [Data Union]
+In pgAdmin4, I've established 12 tables and imported CSV files sourced from our primary data. These tables have been combined into a singular table named 'cyclistic2023,' comprising a total of 21,242,447 rows. Below is the SQL query employed for the consolidation of all tables: [Data Union](https://github.com/Frad27/CyclisticCaseStudy/blob/93b3128db529418dc7e7d5512a346986e0acc6df/DataUnion.sql)
 
 ### Data Cleaning
 
@@ -65,7 +65,7 @@ In pgAdmin4, I've established 12 tables and imported CSV files sourced from our 
 
    ![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/5a3739aa-2a83-4200-9033-bc6c388dfc11)
 
-Now that we have successfully cleaned and prepared the data for analysis, the SQL query responsible for the data cleaning process can be found here: [Link to SQL Query for Data Cleaning].
+Now that we have successfully cleaned and prepared the data for analysis, the SQL query responsible for the data cleaning process can be found here: [Data Cleaning](https://github.com/Frad27/CyclisticCaseStudy/blob/93b3128db529418dc7e7d5512a346986e0acc6df/DataCleaning.sql).
 
 ## PHASE 4: ANALYZE
 
@@ -95,7 +95,7 @@ Calculating the number of bike rides categorized by bike types for different use
 
 ![image](https://github.com/Frad27/CyclisticCaseStudy/assets/157365791/488c491b-263f-4cff-9701-171bd4129b5f)
 
-The analyzed data from PostgreSQL has been  saved as CSV files and subsequently uploaded to Tableau Public, marking the initiation of the fifth phase: sharing insights. This approach ensures accessibility and allows for dynamic visualization and exploration of the findings through Tableau's public platform.
+The analyzed data from PostgreSQL has been  saved as CSV files and subsequently uploaded to Tableau Public, marking the initiation of the fifth phase: sharing insights. This approach ensures accessibility and allows for dynamic visualization and exploration of the findings through Tableau's public platform. Here is the link to SQL query for data analysis: [DataAnalysis](https://github.com/Frad27/CyclisticCaseStudy/blob/93b3128db529418dc7e7d5512a346986e0acc6df/DataAnalysis.sql).
 
 ## PHASE 5: SHARE
 
@@ -147,7 +147,7 @@ Lastly, the examination of starting and ending points highlighted that casual ri
 
 These findings collectively contribute valuable insights into user behavior, aiding in the formulation of targeted strategies and service improvements for both member and casual riders.
 
-All visualizations are available and accessible on Tableau through the following link: [insert the link here].
+All visualizations are available and accessible on Tableau through the following link: [Tableau](https://public.tableau.com/views/CyclisticCaseStudy_17066148978360/Totalrides?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
 ## PHASE 6: ACT
 
