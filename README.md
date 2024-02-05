@@ -147,7 +147,7 @@ Lastly, the examination of starting and ending points highlighted that casual ri
 
 These findings collectively contribute valuable insights into user behavior, aiding in the formulation of targeted strategies and service improvements for both member and casual riders.
 
-All visualizations are available and accessible on Tableau through the following link: [Tableau](https://public.tableau.com/views/CyclisticCaseStudy_17066148978360/Totalrides?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+All visualizations are available and accessible on Tableau through the following link: [Tableau](https://public.tableau.com/views/CyclisticCaseStudy_17066148978360/Cyclistic?:language=en-US&:display_count=n&:origin=viz_share_link).
 
 ## PHASE 6: ACT
 
